@@ -166,7 +166,7 @@ hr.line {
   height: 500px;;
   /* background: linear-gradient(to left, #000428, #004e92) */
     /* background: linear-gradient(to left, #1d2671, #c33764) */
-      background: linear-gradient(to left, #923cb5, #000000)
+  background: linear-gradient(to left, #923cb5, #000000);
 
 }
 
@@ -455,7 +455,8 @@ line-height: 65px;
 .savings {
   width: 100%;
   height: 110vh;
-background: linear-gradient(to left, #923cb5, #000000)
+  padding-bottom: 15%;
+background: linear-gradient(to left, #923cb5, #000000);
 }
 
 .savings-content{
@@ -476,16 +477,20 @@ background: linear-gradient(to left, #923cb5, #000000)
   margin-top: 10%;
   height: 170px;
   width:180px;
+  transition: 0.4s;
 }
+
 
 .piggy:hover{
-  scale
+transform: scale(1.2);
 }
-
+.earn{
+  padding: 25px;
+}
 .earn-18 {
   font-family: "Coolvetica";
   font-size: 1.6rem;
-  color: aqua;
+  color: #FAEDF0;
   margin-left: 4%;
     margin-top: 10%;
 }
@@ -499,27 +504,37 @@ background: linear-gradient(to left, #923cb5, #000000)
 }
 
 .global {
-  margin-top: 20%;
+  margin-top: 10%;
   width: 100%;
   height: 110vh;
-  background-color: #333;
+  margin-bottom: 15%;
+background: linear-gradient(to left, #923cb5, #000000);
 }
 
+.global-content{
+  display: flex;
+  justify-content: center;
+}
+
+.geograghy{
+  margin-top: -9%;
+  width: 580px;
+  height: 480px;
+}
 .global-header {
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 6vw;
-  padding-top: 1%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
   text-align: center;
   padding-top: 10%;
+  padding-bottom: 7%;
 }
 
 .single-18 {
   font-family: "Coolvetica";
-  font-size: 6vw;
+  font-size: 3rem;
   color: coral;
-  margin-left: 53%;
+  margin-left: 23%;
 }
 
 .single-body {
@@ -527,85 +542,112 @@ background: linear-gradient(to left, #923cb5, #000000)
   font-size: 2vw;
   color: #fff;
   margin-top: -3%;
-  margin-left: 52.5%;
+  margin-left: 23%;
 }
 
 .invest {
   width: 100%;
   height: 120vh;
-  background-color: #000;
-  margin-top: -5%;
+  background: linear-gradient(to left, #923cb5, #000000);
+  margin-bottom: 5%;
 }
-
+.invest-content{
+  display: flex;
+  justify-content: center;
+}
 .invest-header {
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 6vw;
-  padding-top: 1%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
   text-align: center;
   padding-top: 10%;
+  margin-bottom: 4%;
 }
 
 .investment-18 {
   font-family: "Coolvetica";
-  font-size: 6vw;
+  font-size: 3rem;
   color: lightblue;
-  margin-left: 6%;
+  margin-right: 8%;
+  margin-top: 4%;
+}
+
+.analysis {
+  margin-top: 10%;
+  height: 370px;
+  width:380px;
+  margin-left: 15px;
 }
 
 .investment-body {
   font-family: "Coolvetica";
-  font-size: 2vw;
+  font-size: 1.4rem;
   color: #fff;
-  margin-top: -3%;
-  margin-left: 6%;
+  margin-top: 2%;
+  margin-right: 8%;
 }
 
 .tools {
   width: 100%;
   height: 110vh;
-  background-color: #111;
-  margin-top: -5%;
+  background: linear-gradient(to left, #923cb5, #000000);
+  margin-top: 5%;
 }
-
+.tools-content{
+  display: flex;
+  justify-content: center;
+}
 .tools-header {
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 6vw;
-  padding-top: 1%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
   text-align: center;
   padding-top: 10%;
+  margin-bottom: 4%;
 }
 
 .trade-18 {
   font-family: "Coolvetica";
-  font-size: 6vw;
+  font-size: 2.6rem;
   color: #2ecc71;
-  margin-left: 55%;
 }
 
 .trade-body {
   font-family: "Coolvetica";
   font-size: 2vw;
   color: #fff;
-  margin-top: -3%;
-  margin-left: 55%;
+  margin-top: 3%;
 }
 
 .services {
   width: 100%;
   height: 110vh;
-  background-color: #222;
-  margin-top: -5%;
+  background: linear-gradient(to left, #923cb5, #000000);
+  margin-top: 5%;
+  text-align: center;
+}
+
+.services-18 {
+  font-family: "Coolvetica";
+  font-size: 3rem;
+  color: lightblue;
+
+  margin-top: 2%;
+}
+
+.services-body {
+  font-family: "Coolvetica";
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 2%;
+
 }
 
 .roadmap {
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  padding-top: -5%;
+    background: linear-gradient(to left, #923cb5, #000000);
+  margin-top: 5%;
 }
 
 .roadmap-header {
@@ -616,7 +658,10 @@ background: linear-gradient(to left, #923cb5, #000000)
   text-align: center;
   padding-top: 2%;
 }
+.card-body{
+  display:flex;
 
+}
 .roadmap-card {
   margin-left: -2%;
   width: 95%;
@@ -625,17 +670,24 @@ background: linear-gradient(to left, #923cb5, #000000)
   background-color: transparent;
   padding: 3vw;
 }
+.class-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Bebas";
+}
 
 .card {
-  min-width: 25rem;
-  height: 30rem;
-  margin-right: 4%;
-  border-radius: 10px;
-  background-color: transparent;
-  border: 2px solid rgb(0, 255, 255);
+  height: 25rem;
+  width: 18rem;
+  margin-right: 2%;
   display: flex;
-  flex-direction: column;
-  transition: 1s;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 9px;
+  border: 0.5px solid #fff;
+}
+.form-check-label{
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .line1 {
@@ -658,10 +710,6 @@ background: linear-gradient(to left, #923cb5, #000000)
 }
 
 
-.bull {
-  float: right;
-  margin-top: -35%;
-}
 
 .global-img {
   float: left;
@@ -670,9 +718,7 @@ background: linear-gradient(to left, #923cb5, #000000)
 }
 
 .stock {
-  float: left;
-  margin-top: -35%;
-  width: 40%;
+  width: 80%;
   margin-left: 2%;
 }
 
@@ -756,12 +802,7 @@ background: linear-gradient(to left, #923cb5, #000000)
   }
 }
 
-.q1 {
-  color: #fff;
-  margin-top: -50%;
-  text-align: center;
-  font-family: "Bebas";
-}
+
 
 .fa {
   color: #fff;
